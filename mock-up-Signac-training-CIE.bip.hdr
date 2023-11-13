@@ -1,0 +1,17 @@
+ENVI
+description = ["   Mosaic Result ["Fri Oct 27 13:56:45 2023"]"]
+samples = 456
+lines = 599
+bands = 3
+file type = ENVI Standard
+data type = 4
+interleave = bip
+sensor type = Unknown
+byte order = 0
+default bands = {109, 55, 28}
+z plot titles = {nm, Reflectance}
+band names = {L (L*A*B*), A (L*A*B*), B (L*A*B*)}
+fwhm = {2.76, 2.76, 2.76, 2.76, 2.76, 2.77, 2.77, 2.77, 2.77, 2.77, 2.77, 2.77, 2.77, 2.78, 2.78, 2.78, 2.78, 2.78, 2.78, 2.78, 2.79, 2.79, 2.79, 2.79, 2.79, 2.79, 2.79, 2.79, 2.8, 2.8, 2.8, 2.8, 2.8, 2.8, 2.8, 2.81, 2.81, 2.81, 2.81, 2.81, 2.81, 2.81, 2.81, 2.82, 2.82, 2.82, 2.82, 2.82, 2.82, 2.82, 2.83, 2.83, 2.83, 2.83, 2.83, 2.83, 2.83, 2.83, 2.84, 2.84, 2.84, 2.84, 2.84, 2.84, 2.84, 2.85, 2.85, 2.85, 2.85, 2.85, 2.85, 2.85, 2.85, 2.86, 2.86, 2.86, 2.86, 2.86, 2.86, 2.86, 2.87, 2.87, 2.87, 2.87, 2.87, 2.87, 2.87, 2.87, 2.88, 2.88, 2.88, 2.88, 2.88, 2.88, 2.88, 2.89, 2.89, 2.89, 2.89, 2.89, 2.89, 2.89, 2.89, 2.9, 2.9, 2.9, 2.9, 2.9, 2.9, 2.9, 2.91, 2.91, 2.91, 2.91, 2.91, 2.91, 2.91, 2.91, 2.92, 2.92, 2.92, 2.92, 2.92, 2.92, 2.92, 2.93, 2.93, 2.93, 2.93, 2.93, 2.93, 2.93, 2.93, 2.94, 2.94, 2.94, 2.94, 2.94, 2.94, 2.94, 2.95, 2.95, 2.95, 2.95, 2.95, 2.95, 2.95, 2.95, 2.96, 2.96, 2.96, 2.96, 2.96, 2.96, 2.96, 2.96, 2.97, 2.97, 2.97, 2.97, 2.97, 2.97, 2.97, 2.98, 2.98, 2.98, 2.98, 2.98, 2.98, 2.98, 2.98, 2.99, 2.99, 2.99, 2.99, 2.99, 2.99, 2.99, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.01, 3.01, 3.01, 3.01, 3.01, 3.01, 3.01, 3.02, 3.02, 3.02, 3.02, 3.02, 3.02, 3.02, 3.02, 3.03, 3.03, 3.03, 3.03, 3.03, 3.03, 3.03, 3.04, 3.04, 3.04, 3.04}
+label = mock-up-Signac-training-CIE
+rotation = [(0, 1), (1, 1), (0, 0), (1, 0)]
+history = mock-up-Signac-entier-ar-resize -> SGFilter<SpecGroup>[<SpecInt label:'Differential Order' value:0>, <SpecInt label:'Polynomial Degree' value:3>, <SpecOddInt label:'Number of Points' value:15>] -> CropWavelengths<SpecGroup>[<SpecFloat label:'Max Wave' value:950.0>, <SpecFloat label:'Min Wave' value:450.0>] -> CIE<SpecGroup>[<SpecBool label:'Return LAB' value:True>, <SpecBool label:'Return xyY' value:False>, <SpecBool label:'Return XYZ' value:False>, <SpecIntChoice label:'Standard Observer' value:10>, <SpecString label:'Illuminant' value:E>]
