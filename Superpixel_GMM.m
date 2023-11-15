@@ -145,6 +145,6 @@ imwrite(mapi,"clusters4_5_GMM.png");
 %automated process for each single cluster
 % for i = 1:NumClusters
 %     mapi = labeloverlay(DataRGB,seg20,"Colormap",colormapValues,"IncludedLabels",[i],"Transparency",0);
-%     fileName = sprintf('cluster%d_FCM.png', i);
+%     fileName = sprintf('cluster%d_GMM.png', i);
 %     imwrite(mapi, fileName);
 % end
