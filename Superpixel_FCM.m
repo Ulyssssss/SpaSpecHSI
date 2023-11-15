@@ -71,7 +71,7 @@ end
 %%%%%fuzzy clustering%%%%%
 % Two ways to fixe the number of cluster :
 % 1) Fixed by us :
-NumClusters = 20;
+NumClusters = 12;
 % 2) Estimate by this function
 % [centersN,sigmaN] = subclust(C_spatial,0.9);
 % NumClusters = size(centersN,1);
